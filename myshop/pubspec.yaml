@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   ndialog: ^4.1.1
   async: ^2.8.2
+  google_fonts: ^2.3.2
 
 dev_dependencies:
   flutter_test:
