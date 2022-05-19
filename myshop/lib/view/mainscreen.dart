@@ -41,6 +41,11 @@ class _MainScreenState extends State<MainScreen> {
               text: 'Cart',
               onTap: () {},
             ),
+            _createDrawerItem(
+              icon: Icons.account_circle_sharp,
+              text: 'Profile',
+              onTap: () {},
+            ),
           ],
         ),
       ),
