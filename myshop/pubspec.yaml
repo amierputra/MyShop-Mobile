@@ -37,6 +37,7 @@ dependencies:
   ndialog: ^4.1.1
   async: ^2.8.2
   google_fonts: ^2.3.2
+  flutter_speed_dial: ^6.0.0
 
 dev_dependencies:
   flutter_test:
