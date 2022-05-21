@@ -12,7 +12,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('SlumShop'),
+        title: const Text('MyShop'),
       ),
       drawer: Drawer(
         child: ListView(
@@ -45,7 +45,7 @@ class _MainScreenState extends State<MainScreen> {
         ),
       ),
       body: const Center(
-        child: Text('Hello World'),
+        child: Text('This is main page.'),
       ),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.add),
