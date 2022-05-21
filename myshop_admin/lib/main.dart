@@ -15,7 +15,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'MyShop Admin',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        //brightness: Brightness.dark,
+        primarySwatch: Colors.deepOrange,
         textTheme: GoogleFonts.latoTextTheme(
           Theme.of(context)
               .textTheme, // If this is not set, then ThemeData.light().textTheme is used.
@@ -55,23 +56,19 @@ class _MySplashScreenState extends State<MySplashScreen> {
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               Padding(
-                padding: const EdgeInsets.all(64.0),
-                child: Image.asset('assets/images/splash.png'),
-              ),
-              const Text(
-                "MyShop (Admin)",
-                style: TextStyle(
-                  fontSize: 40,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
+                padding: const EdgeInsets.all(12.0),
+                child: Column(
+                  children: [
+                    Image.asset('assets/images/splash.png'),
+                    /*const CircularProgressIndicator(),
+                    const Text("Version 0.1",
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        )),*/
+                  ],
                 ),
               ),
-              const CircularProgressIndicator(),
-              const Text("Version 0.1",
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  )),
             ],
           ),
         ),
